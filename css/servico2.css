@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:  aliceblue;
+}
+.banner-image{
+    background-image: url("https://picsum.photos/1920/1080");
+    background-size: cover;
+    
+}
+.card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 3px;
+    transition: .5s;
+}
+.card-center{
+    text-align: center;
+    margin: 20px;
+}
+.card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    text-align: center;
+ 
+}
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px #FF676D;
+    transition: 0.1s;
+    
+}
+.card:hover .intro{
+    height: 220px;
+    bottom: 0;
+    background: black;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover img{
+    transform: scale(1.1);
+
+    
+}
+.section-header{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px
+}
+.about img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+}
+
+.content-row{
+background-color: #FF676D;
+}
+.about a{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background: black;
+    text-decoration: none;
+    color: #FF676D;
+    transition: all 0.5s;
+    
+}
+.about a:hover{
+    
+    transform: scale(1.15);
+}
+.about .content{
+text-align: start;
+margin: 50px;
+}
+.about h3{
+    margin-left: 30px;
+}
+.section-header{
+    padding: 75px;
+}
+.about {
+    margin-bottom: 200px;
+}
+
+
+.media-icons a{
+  text-align: center;
+  line-height: 33px;
+  margin: 0 4px;
+  font-size: 18px;
+  color: #FFF;
+  border-radius: 50%;
+  border:10px solid transparent;
+  background: #FF676D;
+  transition: all 0.3s ease;
+}
+.media-icons a:hover{
+  color: #FF676D;
+  background-color: black;
+  border-color: #FF676D;
+  border:10px solid transparent;
+}
+.fist .media-icons a:hover{
+    color: black;
+    background-color: #ffeba7;
+    border-color: black;
+    border:10px solid transparent;
+  }
+  .fist .media-icons a{
+    text-align: center;
+    line-height: 33px;
+    margin: 0 4px;
+    font-size: 18px;
+    color: white;
+    border-radius: 50%;
+    border:10px solid transparent;
+    background: black;
+    transition: all 0.3s ease;
+  }
+i{
+    width: 25px;
+    height: 25px;
+}
+.fist{
+    background-color: #FF676D;
+}
+.fist h1, h2, p{
+margin: 30px;
+}
+.fist .media-icons{
+    margin: 20px;
+    position: relative;
+    bottom: 10px;
+}
+.fist svg{
+    margin-right: 10px;
+}
+.input input, .input textarea{
+    background-color: ghostwhite;
+    
+}
+.input input{
+    border-radius: 20px;
+}
+.second{
+    background-color: #FF676D;
+    padding: 30px;
+}
+.button-contato{
+    width: 80px;
+    background-color: black;
+    border-radius: 20px;
+    
+
+}
+.button-contato button{
+    color: #FF676D;
+   
+}
+.button-contato:hover button{
+    color: black;
+    transition: all 1s;
+}
+.button-contato:hover{
+    background-color: #ffeba7;
+    transition: all 1s;
+}
+.text, .icons a{
+    color: #FF676D;
+}
+.icons{
+    margin-top: 15px;
+}
+.nav-item a{
+    color: #FF676D;
+}
+.wrapper{
+    min-height: 100vh;
+}
+footer a:hover{
+
+    color: #FF676D;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+  }
+ 
+  tr:nth-child(even) {
+    background-color: #FF676D;
+  }

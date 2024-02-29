@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.cliente {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+ /*-------------------------------------------------------------------------------------------*/
+
+        /*sombreado do menu*/
+
+        #sair a:hover::after {
+            content: '';
+            display: block;
+            width: 1.9rem;
+            height: 0.1rem;
+            background: #E0FFFF;
+            margin: 0 auto;
+            position: absolute;
+            border-radius: 10px;
+        }
+
+        #ajuda a:hover::after {
+            content: '';
+            display: block;
+            width: 2.6rem;
+            height: 0.1rem;
+            background: #E0FFFF;
+            margin: 0 auto;
+            position: absolute;
+            border-radius: 10px;
+        }
+
+        #sinistro a:hover::after {
+            content: '';
+            display: block;
+            width: 3.5rem;
+            height: 0.1rem;
+            background: #E0FFFF;
+            margin: 0 auto;
+            position: absolute;
+            border-radius: 10px;
+        }
+
+        #celular a:hover::after {
+            content: '';
+            display: block;
+            width: 3.3rem;
+            height: 0.1rem;
+            background: #E0FFFF;
+            margin: 0 auto;
+            position: absolute;
+            border-radius: 10px;
+        }
+
+        /*---------------------------------------------------------------------------*/
+/* area começo */
+
+        #profile ul.nav .nav-item a.nav-link.active, #profile ul.nav .nav-item a.nav-link:hover {
+            background-color: #FF676D;
+        }
+        #profile ul.nav .nav-item a.nav-link {
+            background-color: #3c3c3b;
+            color: white;
+            border-radius: 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        section {
+            display: block;
+        }
+        ::selection {
+            color: white;
+            text-shadow: none;
+            background: #222222;
+        }
+        ul i{
+            float: right;
+
+            height: 48px;
+        }
+        .teste img{
+            height: 32px;
+            display: flex;
+        }
+        .teste{
+            display: flex;
+        }
+        .teste p{
+            margin-top: -10px;
+            padding-left: 20px;
+        }
+        .alert{
+            background: white;
+        }
+        .a{
+            background:  #FF676D;
+        }
+        .btn-editar{
+            background: #3c3c3b;
+            float: right;
+        }
+        .btn-seguro{
+            background: #3c3c3b;
+            float: left;
+        }
+        .text-right a, .col a{
+            color: #fff;
+        }
+        .text-right a:hover, .col a:hover{
+            color: #fff;
+        }
+        /* area fim */
+
+        .fist{
+            text-align: center;
+        }
+        
